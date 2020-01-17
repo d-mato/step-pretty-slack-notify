@@ -1,5 +1,5 @@
 name: pretty-slack-notify
-version: 0.3.5
+version: 1.4.1
 summary: Posts wercker build/deploy status to a Slack channel
 tags:
   - notification
