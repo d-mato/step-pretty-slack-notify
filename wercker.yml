@@ -1,4 +1,4 @@
-box: ruby
+box: debian:stable-slim
 build:
   steps:
     - shellcheck:
