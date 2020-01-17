@@ -1,5 +1,10 @@
-box: wercker/rvm
+box: ruby
 build:
   steps:
-    - wercker/bundle-install@1.1.1
-    - validate-wercker-step
+    - shellcheck:
+      files: run.sh
+
+publish:
+  steps:
+    - internal/publish-step:
+        owner: d-mato
